@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 /****************************************************************************/
 /* reset css */
 /****************************************************************************/
+=======
+>>>>>>> be098a6cf09a8ae533aa2ff4c1909464fb69feaa
 *{
 	margin: 0;
 	padding: 0;
@@ -9,6 +12,7 @@
 	border: none;
 	outline: none;
 }
+<<<<<<< HEAD
 /****************************************************************************/
 /* common styles */
 /****************************************************************************/
@@ -31,11 +35,28 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+=======
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	z-index: 0;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	width: 100%;
+	color: #484848;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+>>>>>>> be098a6cf09a8ae533aa2ff4c1909464fb69feaa
 }
 span {
 	color: #000000;
 }
 .container {
+<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -51,6 +72,22 @@ span {
 
 }
 /* Large devices (laptops/desktops, 992px and up) */
+=======
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	margin: 2rem auto;
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+>>>>>>> be098a6cf09a8ae533aa2ff4c1909464fb69feaa
 @media only screen and (min-width: 992px) {
 
 	body {

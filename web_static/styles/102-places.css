@@ -147,9 +147,13 @@
 .places .reviews p {
   font-size: 12px;
 }
+<<<<<<< HEAD
 /*******************************************/
 /* amenities icons */
 /*******************************************/
+=======
+/* amenities icons */
+>>>>>>> be098a6cf09a8ae533aa2ff4c1909464fb69feaa
 .places .amenities ul li{
   display: flex;
   flex-direction: row;
